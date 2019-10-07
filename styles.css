@@ -48,15 +48,30 @@ display: grid;
     background-color: gold;
 }
 
-.comtentinfo.biography{
+#biography{
      
-    grid-area: main;
- 
 }
 
 img{
     width: 20%;
 }
 
+#workexperience{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-areas: "workexperience . "
+        "date position" ;
+    
+}
+#date{
+    grid-area:date;
+    
+}
+#position{
+    grid-area:position;
+}
 
+#workexp{
+    grid-area:workexperience;
+}
 
