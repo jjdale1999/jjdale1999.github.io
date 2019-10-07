@@ -1,0 +1,62 @@
+#header{
+    display: flex;
+    background-color:darkblue;
+    padding: 30px;
+    text-align: center;
+   justify-content: center;
+    align-items: center;
+    grid-area: header;
+    color: white;
+}
+
+header{
+    border: solid;
+    width:50%;
+    
+
+}
+.maincontent{
+    display: grid;
+    grid-template-columns:  2fr 2fr 6fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header header"
+        ".   sidebar main main";   
+    justify-content: center;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    grid-row: 2;
+   
+    
+}
+.sidebar{
+
+    background-color: rgb(224,224,224);
+    display: grid;
+    grid-area: sidebar;
+    
+}
+
+.contentinfo{
+display: grid;
+   
+    width:75%;
+    grid-area: main;
+    grid-row-gap: 80px;
+    
+   border-bottom: 1px solid black;
+    border-radius: 5px;
+    background-color: gold;
+}
+
+.comtentinfo.biography{
+     
+    grid-area: main;
+ 
+}
+
+img{
+    width: 20%;
+}
+
+
+
