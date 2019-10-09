@@ -26,7 +26,7 @@ header{
     grid-column-gap: 40px;
     grid-row-gap: 40px;
     grid-row: 2;
-    
+
    
     
 }
@@ -46,19 +46,14 @@ header{
 
 .contentinfo{
 display: grid;
-    width:75%;
+    width:85%;
     grid-area: main;
-   border-bottom: 1px solid black;
-    border-radius: 5px;
     background-color: gold;
-    border:solid;
-    border-color: darkgreen;
-      border-color: darkgreen darkblue darkgreen transparent;
-
+    
 }
 
 #biography{
-     
+    text-justify: inter-character;
 }
 
 img{
@@ -66,16 +61,16 @@ img{
     height: 40px;
 }
 
-#workexperience{
-    display: grid;
-    grid-template-columns: 5fr 5fr;
-    grid-template-areas: "workexperience . "
-        "date position" ;
+#dateandinfo{
+    display: flex;
+    flex-direction: row;
     
 }
 #date{
-    grid-area:date;
-    
+    :
+}
+#info{
+    margin-left:30px;
 }
 .imglink  {
     display: flex;
@@ -102,7 +97,7 @@ width:70%;
     margin-left: 20px;
 }
 #position{
-    grid-area:position;
+    grid-area:info;
 }
 
 #workexp{
@@ -120,4 +115,20 @@ max-height: 50%;
     display: flex;
   flex-direction: column;
 }
+
+
+hr{
+display: block; height: 2px;
+    width:80%;
+    border: 0; 
+    border-bottom: 3px solid grey;
+    margin-left:90px;
+     }
+
+ul{
+columns: 2;
+}
+
+
+
 
