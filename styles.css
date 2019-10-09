@@ -38,8 +38,7 @@ header{
     grid-area: sidebar;
     font-size: 15px;
     background-color: rgb(224,224,224);
-       border-bottom-left-radius: 50% 20%;
-    border-top-left-radius: 50% 15%;
+      
   
     
     
@@ -51,6 +50,8 @@ display: grid;
     width:85%;
     grid-area: main;
     background-color:   #fffae6;
+     border-bottom-right-radius: 40% 20%;
+    border-top-right-radius: 30% 15%;
     
 }
 
